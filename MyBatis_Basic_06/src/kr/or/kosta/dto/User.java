@@ -2,7 +2,7 @@ package kr.or.kosta.dto;
 
 public class User {
 	
-	private String test;
+	private String te;
 	private int empno;
 	private String ename;
 	public int getEmpno() {
