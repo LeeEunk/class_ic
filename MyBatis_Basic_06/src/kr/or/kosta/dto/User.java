@@ -1,6 +1,8 @@
 package kr.or.kosta.dto;
 
 public class User {
+	
+	private String test;
 	private int empno;
 	private String ename;
 	public int getEmpno() {
