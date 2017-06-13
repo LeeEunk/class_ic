@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class IndexController {
-
+	//주석추가 10:35
 	@RequestMapping("/index.htm")
 	public String index(){
 		System.out.println("들어와들어와");
