@@ -15,9 +15,6 @@ public class IndexController {
 	@RequestMapping("/index2.htm")
 	public String index2() {
 		System.out.println("들어와들어와");
-		//수정했습니다 2017.06.13 (현정)
-		System.out.println("수정해봤다 -by hyun");
-
 		// Tiles 이전
 		return "Index2";
 
