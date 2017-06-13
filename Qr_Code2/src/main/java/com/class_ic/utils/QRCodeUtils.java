@@ -14,7 +14,7 @@ import com.google.zxing.qrcode.QRCodeWriter;
 public class QRCodeUtils {
 
     public static void text2QRCode(String contents, int width, int height,
-            String filename) throws WriterException, IOException {
+    String filename) throws WriterException, IOException {
         BitMatrix bitMatrix = createBitMatrix(contents, width, height);
         MatrixToImageWriter.writeToFile(bitMatrix, "png", new File(filename));
     }
