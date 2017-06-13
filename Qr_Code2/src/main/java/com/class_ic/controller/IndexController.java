@@ -16,7 +16,7 @@ public class IndexController {
 	public String index2() {
 		System.out.println("들어와들어와");
 		//수정했습니다 2017.06.13 (현정)
-		System.out.println("수정해봤다 -by hyun");
+		System.out.println("수정해봤다 -hyun");
 
 		// Tiles 이전
 		return "Index2";
